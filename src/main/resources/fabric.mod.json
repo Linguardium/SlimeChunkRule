@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "slimechunkrule",
+  "version": "${version}",
+  "name": "SlimeChunkRule",
+  "description": "add a gamerule to enable/disable slimechunks",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/slimechunkrule/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.slimechunkrule.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "slimechunkrule.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}

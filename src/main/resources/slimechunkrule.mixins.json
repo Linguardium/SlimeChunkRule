@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "mod.linguardium.slimechunkrule.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BooleanRuleAccessor",
+    "GameRulesMixin",
+    "IntegerRuleAccessor",
+    "SlimeEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
